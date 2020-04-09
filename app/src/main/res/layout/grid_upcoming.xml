@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/constraint_grid_container"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="8dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.github.florent37.shapeofview.shapes.RoundRectView
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shape_roundRect_bottomLeftRadius="2dp"
+        app:shape_roundRect_bottomRightRadius="24dp"
+        app:shape_roundRect_topLeftRadius="24dp"
+        app:shape_roundRect_topRightRadius="2dp">
+
+        <ImageView
+            android:background="@color/colorPrimaryDark"
+            android:id="@+id/img_item_upcoming"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@color/colorAccent"
+            android:contentDescription="@string/detail_cd_posterpath" />
+
+    </com.github.florent37.shapeofview.shapes.RoundRectView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

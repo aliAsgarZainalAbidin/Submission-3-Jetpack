@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cardview_grid_container"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:elevation="4dp">
+    <RelativeLayout
+        android:background="#201f1f"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/img_item_grid"
+            android:layout_width="130dp"
+            android:layout_height="195dp"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/detail_cd_posterpath" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
